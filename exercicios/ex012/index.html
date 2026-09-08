@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Inserindo videos localmente</h1>
+    <p>Este video está ospedado no meu pr´prio servidor.</p>
+    <!--Com o atributo "width" eu ajeito a largura se o video ficou muito grande, e o atributo "poster" serve para colocar a imagem que eu criei e o elemento "loop" serve pra quando o video terminar voltar ao começo-->
+    <video controls poster="imagens/patinhos.png" width="500" loop>
+        <source src="midia/meu.video.mp4.mp4" type="video/mp4">
+        <source src="midia/Meu.Video.Mp4(1).webm" type="videos/webm">
+        <p>Seu navegador não tem compatibilidade com vídeos</p>
+    </video>
+    <h1>Inserindo videos do youtube</h1>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/i7L19SOqbNM?si=HQRCYMR5bmvoOyLd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <!--Também pode subir o video pelo o vimeo mais tem que pagar-->
+</body>
+</html>
